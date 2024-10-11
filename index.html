@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <title>My portfolio</title>
+    </head>
+    <body>
+<nav>
+     <h1 class="name"><a href="#" class="titleLink">MY PORTFOLIO</a></h1>
+    <input type="checkbox" name="" id="Sidebar_chekbox">
+        <svg xmlns="http://www.w3.org/2000/svg" class="open-sidebar"  height="32px" viewBox="0 -960 960 960" width="32 px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+
+    
+ 
+    
+    <label for="Sidebar_chekbox" id="overlay"></label>
+    <div class="links-container links">
+      
+            <svg xmlns="http://www.w3.org/2000/svg" class="close-sidebar" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        
+        <a class="home-link link"><h1>MY PORTFOLIO</h1></a>
+        <a href="#" class="link" data-tab="1">Home</a>
+        <a href="#" class="link" data-tab="2">About</a>
+        <a href="" class="link" data-tab="3">Service</a>
+        <a href="" class="link-dropdown project">Projects
+            <span class="dropdown-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-360 280-560h400L480-360Z"/></svg>
+            </span>
+            <div class="dropdown-content drop-down">
+                <a href="#" class="dropdown-item" data-tab="6">HTML</a>
+                <a href="#" class="dropdown-item">CSS</a>
+                <a href="#" class="dropdown-item">JavaScript</a>
+                <a href="#" class="dropdown-item">php & MySQL</a>
+                <a href="#" class="dropdown-item">Reactjs</a>
+                <a href="#" class="dropdown-item">UiUx Design</a>
+                <a href="#" class="dropdown-item">Bootstrap</a>
+            </div>
+        </a>
+        <a href="" class="link" data-tab="4">Contacts</a>
+        <a href="" class="link" data-tab="5">Skills</a>
+        
+    </div>
+</nav>
+
+
+    <div class="hero link1 section ">
+        <h1>ADEBAYO HAPPY ADEYANJU</h1>
+        <p>WEB DEVELOPER AND A UI/UX DESIGNER</p>
+        <img src="./My_image.jpg" alt="Adebayo Happy Adeyanju">
+        <div class="cta-buttons">
+            <a href="" class="btn-primary viewproject">View My Works</a>
+            <a href="assets/My Resume (HAPPY ADEBAYO).docx" class="btn-secondary" download>Download Resume</a>
+        </div>
+    </div>
+    
+    <!-- ABOUT ME SECTION -->
+    
+    <section id="about" class="about-me link2 displayNone section">
+        <div class="container">
+            <div class="about-image">
+                <img src="my_image.jpg" alt="Adebayo Happy Adeyanju">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p class="bio">I’m Adebayo Happy Adeyanju, and I’ve always been fascinated by the intersection of design and technology. My journey as a web developer and UI/UX designer started with a simple curiosity about how websites work and evolved into a deep passion for creating beautiful, functional digital experiences.
+    
+                    Every project I take on is a new adventure, where I get to blend my eye for detail with a strong grasp of modern web technologies. Whether I’m crafting a sleek website or designing an intuitive user interface, my goal is always the same: to build something that not only looks great but also feels seamless and intuitive for the user.
+                    
+                    Over the years, I’ve honed my skills and learned to adapt to the fast-paced world of web development and design. From coding responsive layouts to designing user-friendly interfaces, I thrive on the challenge of turning complex problems into elegant solutions. My work is driven by a genuine love for what I do, and I’m committed to delivering high-quality results for every project.</p>
+                <h3>Key Skills</h3>
+                <ul class="skills-list">
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>UI/UX Design</li>
+                    <li>PHP & MY_SQL</li>
+                    <li>Graphic Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+<!-- SERVICE SECTION  -->
+
+<section id="services" class="services section link3 displayNone">
+    <div class="container">
+        <h2>Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <img src="language-image/frontend-img-1.jpeg" alt="Frontend Development">
+                <h3>Frontend Development</h3>
+                <p>Creating visually appealing and responsive user interfaces using HTML, CSS, and JavaScript frameworks like React.js, Angular, or Vue.js.</p>
+            </div>
+            <div class="service">
+                <img src="language-image/backendimages.png" alt="Backend Development">
+                <h3>Backend Development</h3>
+                <p>Building robust server-side applications and APIs using Node.js, Express, Python (Django/Flask), Ruby on Rails, or Java (Spring Boot).</p>
+            </div>
+            <div class="service">
+                <img src="language-image/uiux.jpg" alt="UI Design">
+                <h3>UI Design</h3>
+                <p>Creating visually appealing and user-friendly interfaces that enhance the overall user experience. Utilizing design principles, tools, and prototyping techniques to craft intuitive and engaging user interfaces for web and mobile applications.</p>
+            </div>            
+            <div class="service">
+                <img src="language-image/full-stack-archetecture.jpeg" alt="Full Stack Architecture">
+                <h3>Full Stack Architecture</h3>
+                <p>Designing scalable and maintainable architecture for web applications, including choosing appropriate technologies, frameworks, and infrastructure.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section id="contact" class="contactCont link4 section displayNone">
+    <h2>Contact</h2>
+    <p>Email: </p>
+    <div class="social-media">
+        <a href="mailto: ogbenihappy05@gmail.com">
+            <img src="contacts-image/gmail.png" alt="">
+        </a>
+        <a href="https://twitter.com/yourprofile" target="_blank">
+            <img src="contacts-image/twitter.png" alt="Twitter">
+        </a>
+        <a href="www.linkedin.com/in/happy-adebayo" target="_blank">
+            <img src="contacts-image/linkedIn.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/yourprofile" target="_blank">
+            <img src="contacts-image/facebook.png" alt="GitHub">
+        </a>
+        <a href="https://github.com/yourprofile" target="_blank">
+            <img src="contacts-image/github.png" alt="GitHub">
+        </a>
+    </div>
+</section>
+
+<div class="section link5 displayNone skill-cont" id="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <h3>HTML</h3>
+            <div class="skill-level">
+                <div class="skill-bar" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>CSS</h3>
+            <div class="skill-level">
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>JavaScript</h3>
+            <div class="skill-level">
+                <div class="skill-bar" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>PHP & MySQL</h3>
+            <div class="skill-level">
+                <div class="skill-bar" style="width: 75%;"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>Reactjs</h3>
+            <div class="skill-level">
+                <div class="skill-bar" style="width: 70%;"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>UI/UX Design</h3>
+            <div class="skill-level">
+                <div class="skill-bar" style="width: 65%;"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>Bootstrap</h3>
+            <div class="skill-level">
+                <div class="skill-bar" style="width: 60%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECT SECTION -->
+<section id="contact" class="contactCont link4 section displayNone">
+</section>
+
+<script src="./index.js"></script>
+    </body>
+</html>
